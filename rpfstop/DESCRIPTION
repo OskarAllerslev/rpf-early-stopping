@@ -1,0 +1,20 @@
+Package: rpfstop
+Title: Early Stopping for Random Planted Forests
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Oskar", "Allerslev", role = c("aut", "cre"), email = "oskar.m1660@gmail.com"),
+    person("Markus", "Baltzer", role = "aut")
+  )
+Description: Residual-based early stopping rules for random planted forests,
+    following the discrepancy principle for regression trees.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    randomPlantedForest,
+    stats
+Suggests:
+    testthat (>= 3.0.0)
+Additional_repositories: https://plantedml.r-universe.dev
+Config/testthat/edition: 3
