@@ -1,0 +1,21 @@
+﻿# Papers: link, don't redistribute (arXiv license)
+literature/pdf/
+*.pdf
+!paper/build/*.pdf
+# LaTeX
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+# R / Python
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+.venv/
+# Claude local
+.claude/settings.local.json
